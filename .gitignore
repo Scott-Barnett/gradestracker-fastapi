@@ -1,0 +1,9 @@
+# IDE Configuration
+.idea/
+.vscode/
+
+# Virtual Environment
+venv/
+
+# Python Bytecode
+**/__pycache__/
