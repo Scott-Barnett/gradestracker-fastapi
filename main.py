@@ -9,6 +9,7 @@ with open("local_config.json") as json_file:
 
 app = FastAPI()
 
+import api.models
 import api.routes
 
 if __name__ == "__main__":

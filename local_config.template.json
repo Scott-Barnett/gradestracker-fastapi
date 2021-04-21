@@ -1,3 +1,7 @@
 {
+  "DATABASE": {
+    "TYPE": "sqlite",
+    "PATH": "db.sqlite3"
+  },
   "DEBUG": false
 }

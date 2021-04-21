@@ -10,3 +10,4 @@ venv/
 
 # Ignore local configuration
 local_config.json
+db.sqlite3
