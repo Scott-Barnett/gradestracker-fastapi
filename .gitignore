@@ -7,3 +7,6 @@ venv/
 
 # Python Bytecode
 **/__pycache__/
+
+# Ignore local configuration
+local_config.json
