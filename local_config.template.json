@@ -4,6 +4,9 @@
     "PATH": "db.sqlite3"
   },
   "DEBUG": false,
+  "PASSWORD_MANAGER": {
+    "HASH_SCHEME": "bcrypt"
+  },
   "TOKEN_MANAGER": {
     "ALGORITHM": "HS256",
     "DEFAULT_MINUTES_ACTIVE": 30,
