@@ -3,5 +3,10 @@
     "TYPE": "sqlite",
     "PATH": "db.sqlite3"
   },
-  "DEBUG": false
+  "DEBUG": false,
+  "TOKEN_MANAGER": {
+    "ALGORITHM": "HS256",
+    "DEFAULT_MINUTES_ACTIVE": 30,
+    "SECRET_KEY": "generate-with: openssl rand -hex 32"
+  }
 }
