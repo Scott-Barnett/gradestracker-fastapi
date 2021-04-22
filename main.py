@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 
 from fastapi import FastAPI
+from fastapi.security import OAuth2PasswordBearer
 import uvicorn
-import json
-
-with open("local_config.json") as json_file:
-    local_config = json.load(json_file)
 
 app = FastAPI()
+oauth_scheme = OAuth2PasswordBearer(tokenUrl="/token")
 
+from local_config import local_config
 import api.models
 import api.routes
 

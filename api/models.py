@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, Column, String, Integer
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-from main import local_config
+from local_config import local_config
 
 if local_config["DATABASE"]["TYPE"] == "sqlite":
     engine = create_engine(f"sqlite:///{local_config['DATABASE']['PATH']}", connect_args={"check_same_thread": False})

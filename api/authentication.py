@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from passlib.context import CryptContext
 from typing import Optional
 
-from main import local_config
+from local_config import local_config
 
 
 class TokenManager:
